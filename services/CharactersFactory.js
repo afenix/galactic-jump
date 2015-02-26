@@ -1,8 +1,10 @@
 galacticJump.factory('CharactersFactory', function CharactersFactory() {
   var factory = {};
-  factory.flurps = [];
+  factory.lifeForms = []
+
   factory.customize = function () {
-    factory.flurps.push({ name: factory.flurpName, hair: factory.hairColor, eyes: factory.eyeColor, howTall: factory.howTall, weight: factory.weight })
+    factory.lifeForms.push({ lifeForm: factory.lifeForm factory.flurpName, eyes: factory.eyeColor, howTall: factory.howTall, weight: factory.weight })
+    factory.class = null;
     factory.flurpName = null;
     factory.hairColor = null;
     factory.eyeColor = null;
