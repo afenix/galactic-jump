@@ -4,14 +4,14 @@
   <form ng-submit="CharactersFactory.customize()" class="form-horizontal" role="form">
     <fieldset>
       <div class="form-group">
-        <label for="name" class="col-lg-2 control-label">What is your star name?</label>
+        <label for="name" class="col-lg-2 control-label">Star Name?</label>
         <div class="col-lg-10">
-          <input type="text" name="name" ng-model="CharactersFactory.flurpName" class="form-control" required>
+          <input type="text" name="name" ng-model="CharactersFactory.flurpName" class="form-control" placeholder="eg. Star Lord"required>
         </div>
       </div>
 
       <div class="form-group">
-        <label for="class" class="col-lg-2 control-label">What kind of life form are you?</label>
+        <label for="class" class="col-lg-2 control-label">Life Form?</label>
         <div class="col-lg-10">
           <select type="text" id="lifeForm" ng-model="CharactersFactory.lifeForm" class="form-control" required>
             <option value="human">Human</option>
@@ -24,56 +24,56 @@
 
 
       <div class="form-group">
-        <label for="hair" class="col-lg-2 control-label">What color is your hair?</label>
+        <label for="hair" class="col-lg-2 control-label">Hair Color?</label>
         <div class="col-lg-10">
           <select type="text" id="hair" ng-model="CharactersFactory.hairColor" class="form-control">
-            <option>brown</option>
-            <option>black</option>
-            <option>blue</option>
-            <option>yellow</option>
-            <option>snot green</option>
-            <option>orange</option>
+            <option>Brown</option>
+            <option>Black</option>
+            <option>Blue</option>
+            <option>Yellow</option>
+            <option>Snot green</option>
+            <option>Orange</option>
           </select>
         </div>
       </div>
 
       <div class="form-group">
-        <label for="gender" class="col-lg-2 control-label">What is your gender?</label>
+        <label for="gender" class="col-lg-2 control-label">Gender?</label>
         <div class="col-lg-10">
           <select type="text" id="hair" ng-model="CharactersFactory.hairColor" class="form-control">
             <option>Female</option>
             <option>Male</option>
             <option>Non-binary</option>
             <option>Asexual</option>
-            <option>I'm a flurp, we roll all ways</option>
+            <option>I'm a flurp, this question offends me.</option>
           </select>
         </div>
       </div>
 
       <div class="form-group">
-        <label for="tall" class="col-lg-2 control-label">How tall are you (ft)?</label>
+        <label for="tall" class="col-lg-2 control-label">Height(ft)?</label>
         <div class="col-lg-10">
           <input type="number" name="tall" ng-model="CharactersFactory.howTall" min=2 max=9>
         </div>
       </div>
 
       <div class="form-group">
-        <label for="wide" class="col-lg-2 control-label">How big are you (lbs)?</label>
+        <label for="wide" class="col-lg-2 control-label">Size(lbs)?</label>
         <div class="col-lg-10">
           <input type="number" id="wide" ng-model="CharactersFactory.weight" min=25 max=600>
         </div>
       </div>
 
       <div class="form-group">
-        <label for="eyes" class="col-lg-2 control-label">What color eyes do you have?</label>
+        <label for="eyes" class="col-lg-2 control-label">Eye Color?</label>
         <div class="col-lg-10">
           <select type="text"  id="eyes" ng-model="CharactersFactory.eyeColor" class="form-control" >
-            <option>violet</option>
-            <option>black</option>
-            <option>white</option>
-            <option>red</option>
-            <option>blue</option>
-            <option>cheetah spots</option>
+            <option>Violet</option>
+            <option>Black</option>
+            <option>White</option>
+            <option>Red</option>
+            <option>Blue</option>
+            <option>Cheetah spots</option>
           </select>
         </div>
       </div>
