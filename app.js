@@ -11,4 +11,16 @@ galacticJump.config(function($stateProvider) {
     templateUrl: "partials/characterCreation.html",
     controller: "CharactersCtrl"
   });
+
+  $stateProvider.state('openingScene', {
+    url:"/openingScene",
+    templateUrl: "partials/openingScene.html",
+    controller: "CharactersCtrl"
+  });
+
+  $stateProvider.state('flurp2Earth', {
+    url:"/flurp2Earth",
+    templateUrl: "partials/flurp2Earth.html",
+    controller: "CharactersCtrl"
+  });
 });

@@ -83,20 +83,23 @@
     </fieldset>
   </form>
 
-<div class="col-lg-12">
-  <div class="row permission" ng-controller="CharactersCtrl">
-    <div ng-show="lifeForms.length">
-      <h4>You have chosen wisely <br> {{ lifeForms.flurpName }}</h4>
-        <p ng-repeat="item in lifeForms">
-          You are a {{ lifeForms.lifeType }}.
-          Your hair color is {{ lifeForms.hairColor }}.
-          Your gender identity is {{ lifeForms.gender }}.
-          You are {{ lifeForms.howTall }} feet tall.
-          You weigh {{ lifeForms.weight }} pounds.
-          You have lovely {{ lifeForms.eyeColor }} colored eyes.
-        </p>
-      </ul>
+  <div class="col-lg-12">
+    <div class="row permission" ng-controller="CharactersCtrl">
+      <div ng-show="lifeForms.length">
+        <h4>You have chosen wisely <br> {{ lifeForms.flurpName }}</h4>
+          <p ng-repeat="item in lifeForms">
+            You are a {{ lifeForms.lifeType }}.
+            Your hair color is {{ lifeForms.hairColor }}.
+            Your gender identity is {{ lifeForms.gender }}.
+            You are {{ lifeForms.howTall }} feet tall.
+            You weigh {{ lifeForms.weight }} pounds.
+            You have lovely {{ lifeForms.eyeColor }} colored eyes.
+          </p>
+        </ul>
+        <h3>If you are ready for your adventure, press the shiney blue button below!</h3>
+        <button class="btn btn-success"><a ui-sref="openingScene">Start!</a></button>
+      </div>
     </div>
   </div>
-</div>
+
 </div>
