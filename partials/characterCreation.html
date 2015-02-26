@@ -1,0 +1,32 @@
+<div class="col-md-8">
+  <h3>Who are you and what do you look like?</h3>
+    <form ng-submit="CharactersFactory.customize()" class="form-inline" role="form">
+      <div>
+        <input type="text" ng-model="CharactersFactory.flurpName" class="form-control" placeholder="Give your character a name!">
+        <fieldset>
+        <input type="text" ng-model="CharactersFactory.hairColor" class="form-control">
+        <select id="" ></select>
+          <option>brown</option>
+          <option>black</option>
+          <option>blue</option>
+          <option>yellow</option>
+          <option>snot green</option>
+          <option>orange</option>
+        </fieldset>
+        <fieldset>
+        <input type="text" ng-model="CharactersFactory.eyeColor" class="form-control" >
+        <select class="" name=""></select>
+          <option>violet</option>
+          <option>black</option>
+          <option>white</option>
+          <option>red</option>
+          <option>blue</option>
+        </fieldset>
+        <input type="number" ng-model="CharactersFactory.howTall" min=5 max=9>
+        <input type="number" ng-model="CharactersFactory.weight" min=300 max=600>
+      </div>
+      <button type="submit" class="btn btn-default">Submit</button>
+    </form>
+</div>
+
+<div ui-view> </div>
