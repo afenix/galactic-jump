@@ -1,5 +1,7 @@
 <h2>In the beginning</h2>
-<div id="FlurpOpening">
+
+
+<div id="FlurpOpening" class="col-md-6">
   <p>As far as the eye can see, the land of the flurps is covered alternately in
     smooth pink rock and the glistening, pulsating piles of flurpkind.
 
@@ -41,6 +43,10 @@
       <li><button class="btn btn-xs btn-danger" value="3"><a ui-sref="flurp2Earth">Flurpiest?</a></button>From the third, you can feel warmth and hardness...</li>
     </ul>
     Which way would you like to go {{lifeForms.flurpName}}? The choice is yours.</p>
-  </div>
+</div>
 
-  <div ui-view></div>
+<div id="lifeForceCounter" class="col-md-6">
+  Your Life Force is Currently at: <strong> {{ lifeForces }} </strong>
+</div>
+
+<div ui-view></div>

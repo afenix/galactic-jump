@@ -84,6 +84,7 @@
   </form>
 
   <div class="col-lg-12">
+
     <div class="row permission" ng-controller="CharactersCtrl">
       <div ng-show="lifeForms.length">
         <h4>You have chosen wisely <br> {{ lifeForms.flurpName }}</h4>
@@ -96,10 +97,12 @@
             You have lovely {{ lifeForms.eyeColor }} colored eyes.
           </p>
         </ul>
-        <h3>If you are ready for your adventure, press the shiney blue button below!</h3>
+        <div id="lifeForceCounter" class="col-md-6">
+          Your Life Force is Currently at:  {{ lifeForces }}
+        </div>
+        <h3>If you are ready for your adventure, press the shiney green button below!</h3>
         <button class="btn btn-success"><a ui-sref="openingScene">Start!</a></button>
       </div>
     </div>
   </div>
-
 </div>
