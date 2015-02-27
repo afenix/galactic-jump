@@ -35,4 +35,24 @@ galacticJump.config(function($stateProvider) {
     templateUrl: "partials/tendrilSide.html",
     controller: "CharactersCtrl"
   });
+  $stateProvider.state('backToField', {
+    url: "/backToField",
+    templateUrl: "partials/backToField.html",
+    controller: "CharactersCtrl"
+  });
+  $stateProvider.state('farmHouse', {
+    url: "/farmHouse",
+    templateUrl: "partials/farmHouse.html",
+    controller: "CharactersCtrl"
+  });
+  $stateProvider.state('GiantRedPile', {
+    url: "/GiantRedPile",
+    templateUrl: "partials/GiantRedPile.html",
+    controller: "CharactersCtrl"
+  });
+  $stateProvider.state('smallPinkPile', {
+    url: "/smallPinkPile",
+    templateUrl: "partials/smallPinkPile.html",
+    controller: "CharactersCtrl"
+  });
 });
