@@ -11,7 +11,18 @@ only four armlegs, but it only has two on the ground, and the other two are left
 to dangle from its headbody. The extra lump on this creature sits on top of the
 headbody and it too is making a strange noise. Perhaps the greetings are
 different in this part of flurbonia?
-You feel a new sensation when approching the new creature
-study human
-greet human
+You feel a new sensation when approching the new creature, apprehension. This
+creature is afraid of you. You feel strongly that you should reassure it that
+you are friendly.
+
+  <ul>
+    <li><button class="btn btn-xs btn-danger"><a ui-sref="greet">Friend!</a></button>Do you think that a proper flurp hug will calm the two legged creature?</li>
+    OR...
+    <li><button class="btn btn-xs btn-info"><a ui-sref="caution">Friend?</a></button>Would you like to try a slower approch?</li>
+  </ul>
+
+  <div id="lifeForceCounter" class="col-md-6">
+    Your Life Force is Currently at: <strong> {{ lifeForces }} </strong>
+  </div>
+  
 </div>
