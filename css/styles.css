@@ -1,24 +1,16 @@
 body {
-  background-image: url(spaceEarth.jpg);
+  background-image: url(blackhole.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
 
-.centered {
-    text-align:center;
+.container-fluid {
+  text-align: left;
+  width:1000px;
+  margin:0 auto;
 }
 
-/*.home {
-  background-image: url(spaceEarth.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
+p {
+  text-align: left;
 }
-
-.characterCreation {
-  background-image: url(guardians.jpeg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-}*/
